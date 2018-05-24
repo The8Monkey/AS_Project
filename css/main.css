@@ -1,0 +1,11 @@
+h2{
+    text-align: center;
+}
+
+.sunburst-viz{
+    height: 0px;
+}
+
+svg{
+    width: 100% !important;
+}
