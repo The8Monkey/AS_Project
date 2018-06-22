@@ -9,7 +9,7 @@
 <h2>Todesursachen</h2>
 <div id="dropdown">
     Diese Seite stellt die Daten der Todesursachen nach Jahren dar.</br>
-    Jahr: <select>
+    Jahr: <select onchange="getData(value);" id="selectedYear">
         <option value="1998">1998</option>
         <option value="1999">1999</option>
         <option value="2000">2000</option>
@@ -31,8 +31,8 @@
     </select>
 </div>
 <div id="chart"></div>
-<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/sunburst-chart.min.js"></script>
-<script src="../js/testSunburst.js"></script>
+<script src="../js/mySunburst.js"></script>
 </body>
 </html>

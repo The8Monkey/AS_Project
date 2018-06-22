@@ -13,4 +13,4 @@ $year = $_POST['year'] ?? 1998;
 
 $controller = new Controller();
 
-return json_encode($controller->getDataFromDB($year));
+echo json_encode($controller->getDataFromDB($year));
